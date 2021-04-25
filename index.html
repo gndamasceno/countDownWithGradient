@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountDown with Gradient</title>
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+<body id="bodyJS" class="body" onload="startHome()">
+    <h1> Contagem Regressiva!</h1>
+    <div id="div__home" class="home">
+        <p>Tempo:</p>
+        <input id="inputTempo" type="number" min="0" class="home__tempo">
+        <button class="home__iniciar" id="btnIniciar" onclick="verificaValor()">Iniciar</button>
+    </div>
+    <div id="div__countDown" class="countDown">
+        <img src="ronaldinho.gif" alt="ronaldinho Tocando tambor na copa" />
+        <p id="timer">Timer</p>
+    </div>
+    <div id="div__sucess" class="sucess">
+        <img src="pele.gif" alt="Pelé comemorando" />
+        <button class="sucess__resetar" id="btnResetar" onclick="startHome()"> Resetar</button>
+    </div>
+    <script type="text/javascript" src="countDown.js"></script>
+</body>
+</html>
