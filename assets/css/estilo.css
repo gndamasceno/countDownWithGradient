@@ -25,6 +25,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* Iniciando */
+    display: none;
    
 }
 .sucess{
@@ -32,6 +34,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* Iniciando */
+    display: none;
     
 }
 .sucess__resetar{
